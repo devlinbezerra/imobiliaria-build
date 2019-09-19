@@ -1,3 +1,10 @@
+assets/scripts/controllers/*
+assets/scripts/models/*
+assets/scripts/formGetter.js
+assets/scripts/index.js
+assets/scripts/model.js
+assets/scripts/view.js
+
 .prettierrc
 .log*
 node_modules
