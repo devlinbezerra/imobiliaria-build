@@ -1,6 +1,10 @@
 <?php
 
 class Api extends MY_Controller { 
+    public function __construct(){
+        header('Access-Control-Allow-Origin: *');
+        parent::__construct();
+    }
     //CRUD
 
     //1. Create
